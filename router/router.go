@@ -47,9 +47,6 @@ func InitRouter() {
 
 		log.Type = r.Type
 		log.Data = jsonString
-		id := log.Create(log)
-
-		fmt.Println(id)
+		log.Create(log)
 	})
-
 }

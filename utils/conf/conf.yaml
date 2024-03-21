@@ -1,0 +1,4 @@
+mysql:
+  dsn: root:123456@tcp(localhost:3309)/sync_task?charset=utf8mb4&parseTime=True&loc=Local
+  prefix: ""
+mode: debug
